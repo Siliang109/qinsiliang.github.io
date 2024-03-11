@@ -2,36 +2,47 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* 确保包括边框在内的宽度计算 */
     font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* 设置页面的背景颜色和字体颜色 */
+/* 设置页面的背景颜色、背景图、字体颜色，以及内容居中 */
 body {
     background-color: #f8f8f8;
+    background-image: url('path-to-your-background-image.jpg'); /* 替换为您的背景图路径 */
+    background-size: cover; /* 背景图覆盖整个页面 */
     color: #333;
     line-height: 1.6;
     padding: 20px;
+    text-align: center; /* 居中文本 */
 }
 
-/* 设置header区域的样式 */
+/* 设置header区域的样式，增加背景透明度 */
 header {
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.8); /* 半透明黑色背景 */
     color: #fff;
-    padding: 20px;
-    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 20px;
 }
 
 header h1 {
     margin-bottom: 10px;
+    font-size: 2.5em; /* 增大标题字体大小 */
 }
 
-/* 设置section区域的样式 */
+header p {
+    font-size: 1.2em; /* 增大副标题字体大小 */
+}
+
+/* 设置section区域的样式，使其在页面中居中 */
 .info-section {
     background-color: #fff;
-    margin: 20px 0;
+    margin: 20px auto; /* 上下边距为20px，左右自动（居中） */
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    width: 80%; /* 设置宽度并居中显示 */
+    max-width: 800px; /* 最大宽度限制 */
 }
 
 .info-section h2 {
@@ -39,10 +50,12 @@ header h1 {
     margin-bottom: 10px;
     padding-bottom: 5px;
     border-bottom: 1px solid #ddd;
+    font-size: 1.5em; /* 增大小标题字体大小 */
 }
 
 .info-section ul {
     list-style: none;
+    text-align: left; /* 左对齐列表项 */
 }
 
 .info-section ul li {
@@ -51,6 +64,7 @@ header h1 {
     border: 1px solid #ddd;
     margin-bottom: 5px;
     border-radius: 3px;
+    font-size: 1.1em; /* 增大列表字体大小 */
 }
 
 /* 设置联系方式的样式 */
@@ -60,4 +74,5 @@ header h1 {
     border: 1px solid #ccc;
     margin-bottom: 5px;
     border-radius: 3px;
+    font-size: 1em; /* 设置字体大小 */
 }
