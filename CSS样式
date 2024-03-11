@@ -8,7 +8,7 @@
 
 /* 设置页面的背景颜色、背景图、字体颜色，以及内容居中 */
 body {
-    background-image: url('背景图.jpg'); /* 使用图片文件名更新路径 */
+    background-image: url('背景图.JPG'); /* 使用图片文件名更新路径 */
     background-size: cover; /* 背景图覆盖整个页面 */
     background-repeat: no-repeat; /* 防止背景图重复 */
     background-attachment: fixed; /* 背景图固定，内容滚动时背景图不动 */
