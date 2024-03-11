@@ -13,25 +13,27 @@ body {
     background-repeat: no-repeat; /* 防止背景图重复 */
     background-attachment: fixed; /* 背景图固定，内容滚动时背景图不动 */
     background-position: center center; /* 背景图居中显示 */
+    color: #333; /* 设置字体颜色 */
+    text-align: center; /* 文本居中 */
+    overflow-y: auto; /* 允许垂直滚动 */
+    font-size: 16px; /* 默认字体大小调整为16px */
     /* 其他样式 */
 }
-
 
 /* 设置header区域的样式，增加背景透明度 */
 header {
     background-color: rgba(51, 51, 51, 0.8); /* 半透明黑色背景 */
     color: #fff;
     padding: 40px 20px;
-    margin-bottom: 20px;
+    text-align: center; /* 保证标题和副标题居中对齐 */
 }
 
 header h1 {
-    margin-bottom: 10px;
-    font-size: 2.5em; /* 增大标题字体大小 */
+    font-size: 2.5rem; /* 标题字体大小调整为2.5rem */
 }
 
 header p {
-    font-size: 1.2em; /* 增大副标题字体大小 */
+    font-size: 1.2rem; /* 副标题字体大小调整为1.2rem */
 }
 
 /* 设置section区域的样式，使其在页面中居中 */
@@ -46,34 +48,25 @@ header p {
 }
 
 .info-section h2 {
-    color: #333;
-    margin-bottom: 10px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #ddd;
-    font-size: 1.5em; /* 增大小标题字体大小 */
+    font-size: 1.5rem; /* 小标题字体大小调整为1.5rem */
+    text-align: center; /* 小标题居中对齐 */
 }
 
 .info-section ul {
     list-style: none;
-    text-align: left; /* 左对齐列表项 */
+    padding-left: 0; /* 移除默认的列表左侧填充 */
+    text-align: center; /* 列表项居中对齐 */
 }
 
 .info-section ul li {
-    background-color: #f8f8f8;
-    padding: 10px;
-    border: 1px solid #ddd;
-    margin-bottom: 5px;
-    border-radius: 3px;
-    font-size: 1.1em; /* 增大列表字体大小 */
+    font-size: 1rem; /* 列表字体大小调整为1rem */
+    text-align: left; /* 列表项内文本左对齐 */
+    display: inline-block; /* 设置为内联块元素以便居中 */
+    width: 100%; /* 占据整个容器宽度 */
 }
 
 /* 设置联系方式的样式 */
 .contact-info p {
-    background-color: #e7e7e7;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-bottom: 5px;
-    border-radius: 3px;
-    font-size: 1em; /* 设置字体大小 */
+    font-size: 1rem; /* 联系信息字体大小调整为1rem */
+    text-align: center; /* 联系信息居中对齐 */
 }
-
