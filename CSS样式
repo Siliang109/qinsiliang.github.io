@@ -1,0 +1,63 @@
+/* 设置全体元素的边距和填充为0，并设置字体族 */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* 设置页面的背景颜色和字体颜色 */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* 设置header区域的样式 */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* 设置section区域的样式 */
+.info-section {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.info-section h2 {
+    color: #333;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.info-section ul {
+    list-style: none;
+}
+
+.info-section ul li {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+/* 设置联系方式的样式 */
+.contact-info p {
+    background-color: #e7e7e7;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
